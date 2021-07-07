@@ -1,0 +1,13 @@
+.footer {
+  margin-top: 100px;
+}
+.footer ul {
+  list-style-type: none;
+}
+.footer ul li {
+  padding: 0 50px;
+  margin-top: 30px;
+}
+.footer ul li img {
+  width: 100px;
+}

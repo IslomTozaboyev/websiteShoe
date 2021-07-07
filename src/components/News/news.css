@@ -1,0 +1,26 @@
+.news {
+  margin-top: 100px;
+}
+.news .news__text {
+  background-image: linear-gradient(
+    to left bottom,
+    #bad0e9,
+    #bbdafa,
+    #c3dffa,
+    #c8dff3,
+    #baddfa
+  );
+  padding: 50px;
+  width: 800px;
+  height: 335px;
+  margin-top: 30px;
+}
+.news .news__text button {
+  height: 40px;
+  background-color: rgba(238, 85, 20, 1);
+}
+.news .news__text input {
+  height: 40px;
+  outline: none;
+  border: none;
+}

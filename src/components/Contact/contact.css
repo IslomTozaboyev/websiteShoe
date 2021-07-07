@@ -1,0 +1,32 @@
+.contact {
+  margin-top: 100px;
+}
+.contact h5 {
+  color: rgba(238, 85, 20, 1);
+}
+.contact h1 {
+  color: rgb(0, 0, 0);
+}
+.contact .catigories p {
+  padding: 0 20px;
+  cursor: pointer;
+}
+.contact .contact__box button {
+  padding: 8px 15px;
+  background: rgba(238, 85, 20, 1);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.contact .contact__box button:hover {
+  background: rgb(196, 59, 0);
+  color: white;
+}
+.contact .icon {
+  cursor: pointer;
+  transition: 0.5s;
+  font-size: 30px;
+}
+.contact .icon:hover {
+  transform: scale(1.1);
+}

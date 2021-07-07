@@ -1,0 +1,126 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  z-index: 1000;
+  background-color: #f6e7ff;
+  display: flex;
+}
+.header__section .logo {
+  width: 80px;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+}
+.header__section ul li {
+  list-style-type: none;
+  padding: 0px 20px;
+}
+.header__section ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.header__section ul li a:hover {
+  color: rgba(238, 85, 20, 1);
+}
+.header__section .btn {
+  background-color: rgba(238, 85, 20, 1);
+  color: white;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+.container-home {
+  background-image: linear-gradient(
+    to right top,
+    #feb8f5,
+    #f7ccfe,
+    #f5dfff,
+    #f7f0ff,
+    #ffffff
+  ) !important;
+}
+.container-home .text .title {
+  font-size: 60px;
+  font-weight: 700;
+  color: black;
+  margin-top: 100px;
+}
+.container-home .text span {
+  color: rgba(238, 85, 20, 1);
+}
+.container-home .home__photo {
+  margin-top: 100px !important;
+  border: 10px solid #f7b69a;
+}
+.container-home .home__photo .photo1 {
+  width: 650px;
+}
+.container-home .home__club {
+  background-color: #fff;
+}
+.container-home .home__box {
+  padding: 0 20px;
+}
+.container-home .home__box button {
+  background-color: rgba(238, 85, 20, 1);
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1400px) {
+  .container-home {
+    width: 1500px !important;
+  }
+  .container-home .home__photo .photo1 {
+    width: 500px;
+  }
+  .container-home .home__club {
+    width: 600px !important ;
+    background-color: #fff;
+  }
+  .container-home .container {
+    margin: 0 250px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .container-home {
+    width: 1700px !important;
+  }
+  .container-home .text .title {
+    margin: 40px 100px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .container-home {
+    width: 1500px !important;
+  }
+  .header__section {
+    max-width: 1000px !important;
+  }
+}
+@media screen and (max-width: 800px) {
+  .header__section {
+    display: none;
+  }
+  .container-home .bars {
+    display: block !important;
+  }
+  .header__section .d-flex {
+    display: block !important ;
+  }
+  .container {
+    margin: 0 50px !important ;
+  }
+}
+@media screen and (max-width: 550px) {
+  .container-home {
+    margin: 0 50px !important ;
+  }
+}

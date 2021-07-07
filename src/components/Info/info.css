@@ -1,0 +1,23 @@
+.info {
+  margin-top: 100px;
+}
+.info .info__text {
+  text-align: center;
+}
+.info h1 {
+  text-align: center !important ;
+}
+.info .info__rezume {
+  margin: 50px 150px;
+}
+.info .info__avatar {
+  margin-bottom: 50px;
+}
+.info .icon {
+  cursor: pointer;
+  font-size: 30px;
+  transition: 0.5s;
+}
+.info .icon:hover {
+  transform: scale(1.1);
+}
